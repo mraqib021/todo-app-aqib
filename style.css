@@ -1,0 +1,65 @@
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);;
+}
+h1{
+    text-align: center;
+    font-size: 42px;
+    color:rgb(34,193,195);
+    color: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+input{
+    padding: 10PX;
+    width: 180px;
+    height: 40px;
+    border-radius: 100px;
+    outline: none;
+    border-style: none;
+    margin-right: 12px;
+}
+#addTask{
+    padding: 10px;
+    border-radius: 15px;
+    height: 40px;
+    outline: none;
+    border-style: none;
+    margin-right: 12px;
+    background-color: white;
+}
+.del{
+    border-radius: 15px;
+    height: 40px;
+    padding: 10px;
+    outline: none;
+    border-style: none;
+    margin-left: 10px;
+    background-color: white;
+}
+.edit{
+    border-radius: 15px;
+    height: 40px;
+    outline: none;
+    padding: 10px;
+    border-style: none;
+    background-color: white;
+    margin-bottom: 20px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    text-align: center;
+}
+@media screen and (max-width: 400px) {
+    .inputBox{
+        width: 130px;
+        margin-left: -5px;
+    }
+    .del{
+        margin-left:2px;
+    }
+    .edit{
+        margin-left: -8px;
+    }
+}
